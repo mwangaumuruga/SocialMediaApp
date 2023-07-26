@@ -1,26 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.1.3
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: May 03, 2022 at 09:57 AM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.5
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
---
--- Database: `sns_db`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `comment_list`
---
-
 CREATE TABLE `comment_list` (
   `id` int(30) NOT NULL,
   `post_id` int(30) NOT NULL,
