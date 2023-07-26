@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 2;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.sidebar .container{
+    padding: 20px;
+}
+.sidebar .user{
+    display: flex;
+    align-items: center;
+    gap :10px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.menu .item{
+    display: flex;
+    align-items: center;
+    gap :10px;
+    cursor: pointer;
+}
+.menu div{
+    background-color: #B2A9A9;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.menu div:hover{
+background-color: rgb(150, 232, 150);
+}

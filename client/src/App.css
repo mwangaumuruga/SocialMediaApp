@@ -1,0 +1,55 @@
+:root {
+  --white:white;
+  --bgcolor:black;
+  --sidebar:#DEC9EE;
+  --navbar:#B2A9A9;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-weight);
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+}
+body.light {
+  --background-color: #B2A9A9;
+  --text-color: var(--bgcolor);
+  --font-weight: 400;
+}
+
+body.dark {
+  --background-color: var(--bgcolor);
+  --text-color: var(--white);
+  --font-weight: 500;
+}
+.navbar{
+  background-color: var(--background-color);
+}
+body.light .sidebar{
+  background-color: #DEC9EE;
+}
+.sidebar{
+background-color: var(--background-color);
+}
+body.light .rightbar{
+  background-color: #DEC9EE;
+}
+.rightbar{
+background-color: var(--background-color);
+}
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bars{
+  display: flex;
+}
+.mainCt{
+  flex: 6;
+}
+
+@media  (max-width: 480px){
+  
+}

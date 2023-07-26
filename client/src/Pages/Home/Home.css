@@ -1,0 +1,88 @@
+.home{
+    background-color: #D9D9D9;
+    height: 100vh;
+    flex: 3;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+/* .stories{
+    background-color: #B2A9A9;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 290px;
+} */
+.stories{
+    background-color: #B2A9A9;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.story {
+flex: 1;
+border-radius: 10px;
+overflow: hidden;
+}
+.stories .story img{
+height: 100%;
+width: 100%;
+}
+
+.stories .story{
+    position: relative;
+}
+
+.stories .story span{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 500;
+    color: white;
+}
+.stories .story button{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    color: white;
+    background-color: rgb(150, 232, 150);
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.title{  
+    text-align: center;
+}
+.stories .images{
+    display: flex;
+    flex: 1;    
+}
+.images img{
+    height: 195px;
+    width: 155px;
+}
+.home .createStory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color:  #B2A9A9;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.createStory p{
+    margin-left: 20px;
+}
+.createStory button{
+    background-color: rgb(150, 232, 150);
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}

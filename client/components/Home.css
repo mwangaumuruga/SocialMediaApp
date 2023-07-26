@@ -1,0 +1,192 @@
+
+.home-container {
+  background: url('../assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #d92013;
+  text-align: center;
+}
+
+.react-logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.react-image {
+  width: 100px;
+}
+.subtitle {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.trips {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #d92013;
+}
+
+.road-trip-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.road-trip-table th,
+.road-trip-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.road-trip-table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+.road-trip-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.road-trip-table tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+.booking-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.booking-form h2 {
+  margin-bottom: 10px;
+}
+
+.booking-form p {
+  margin-bottom: 20px;
+}
+.signin-link {
+  padding: 8px 16px;
+  background-color: #d92013;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+.recent-places-visited {
+  margin-bottom: 40px;
+}
+
+.image-navigation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.previous-button,
+.next-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image-gallery {
+  text-align: center;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+
+
+.image-description {
+  font-size: 30px;
+}
+
+.vehicles {
+  margin-bottom: 40px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.image-name {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.previous-button,
+.next-button {
+  padding: 10px 20px;
+  background-color: #d92013;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.previous-button:hover,
+.next-button:hover {
+  background-color: #c7170f;
+}
+.vehicles {
+  margin-top: 30px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.gallery-container img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.gallery-container .gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-container .gallery-item:hover img {
+  transform: scale(1.1);
+}

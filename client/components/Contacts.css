@@ -1,0 +1,49 @@
+.contacts-container {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacts-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contacts-container p {
+  margin-bottom: 10px;
+}
+
+.contacts-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.contacts-container ul li {
+  margin-bottom: 5px;
+}
+
+.social-media h3 {
+  margin-bottom: 10px;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media ul li {
+  margin-bottom: 5px;
+}
+
+.social-media ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.social-media ul li a:hover {
+  text-decoration: underline;
+}

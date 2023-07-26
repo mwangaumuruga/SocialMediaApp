@@ -1,0 +1,91 @@
+.userprofile{
+
+}
+.userprofile .images{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.images .cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images .profilePic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    top: 200px;
+}
+.profileContainer{
+padding: 20px 70px;
+}
+.profileContainer .uInfo{
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.profileContainer .uInfo .left{
+flex: 1;
+display: flex;
+gap: 10px;
+}
+.profileContainer .uInfo .center{
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.profileContainer .uInfo .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.profileContainer .uInfo .center .name{
+    font-size: 30px;
+    font-weight: 500;
+}
+.profileContainer .uInfo .center .info{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.profileContainer .uInfo .center .info span{
+    font-size: 12px; 
+}
+
+.center .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info .item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.center button{
+        border: none;
+        background-color: #5271ff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+}

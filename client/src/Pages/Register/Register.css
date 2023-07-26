@@ -1,0 +1,82 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: white; /* fallback for old browsers *//* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.register .details{
+display: flex;
+width: 100%;
+border-radius: 20px;
+padding: 5px;
+}
+.register .details .left{
+    border-radius: 20px;
+    flex: 1;
+    background:url('../../assets/register.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+}
+.register .details .left .span{
+    font-size: 14px;
+}
+.register .details .left button{
+    cursor: pointer;
+}
+.title{
+    color: linear-gradient(to right, #B06AB3, #4568DC);
+}
+.content{
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+.right{
+    background-color: white;
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+
+}
+button:hover{
+background-color: teal;
+transition: 0.5s ease-in-out;
+}
+.credit{
+    display: flex;
+    justify-content: space-between;
+
+}
+.policy span{
+    color: red;
+    margin-left: 15px;
+}
+.accountLogin{
+    display: flex;
+    justify-content: space-between;
+}

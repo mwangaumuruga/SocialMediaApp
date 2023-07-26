@@ -1,0 +1,24 @@
+.conversation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:  rgb(150, 232, 150);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.conversation:hover{
+    background-color: gray;
+}
+.online-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:red;
+    position: absolute;
+    left: 3.5rem;
+    /* top: 0px;    */
+   /* right: 2px; */
+  }
